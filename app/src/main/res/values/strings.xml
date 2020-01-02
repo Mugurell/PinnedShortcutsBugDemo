@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PinnedShortcutsBugDemo</string>
+    <string name="app_features_description">App usage: \n -Press \"Add\" to add as many pinned shortcuts as you like. \n -Press \"Query\" for getting the result from ShortcutManager.getPinnedShortcuts().size</string>
+    <string name="bug_description">Should be set programmatically</string>
+</resources>

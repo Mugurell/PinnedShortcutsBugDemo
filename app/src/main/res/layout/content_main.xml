@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/bugDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bug_description"/>
+
+    <TextView
+        android:id="@+id/appFeaturesDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@id/bugDescription"
+        android:text="@string/app_features_description"
+        />
+
+    <TextView
+        android:id="@+id/shortcutsPinnedText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@id/appFeaturesDescription"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
